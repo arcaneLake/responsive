@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.hero {
+    background: #23424A;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+    max-width: 900px;
+}
+
+.hero__text {
+    width: 60%;
+}
+
+.hero p {
+    margin-bottom: 2.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #38CFD9;
+    border-radius: 2rem;
+    color: #136C72;
+    padding: .75rem 1.25rem;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75;
+}
