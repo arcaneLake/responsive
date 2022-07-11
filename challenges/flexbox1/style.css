@@ -39,10 +39,17 @@ h1 {
     margin: 0 auto;
 }
 
+.two-col {
+    background-color: #136C72;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
 .row {
     /* display: flex => flex container */
     display: flex;
-
+    gap: 100px;
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -50,6 +57,16 @@ h1 {
 .col {
     /* these are now flex items */
     width: 100%;
+}
+
+
+.three-col {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.three-col h2 {
+    color: #87629A;
 }
 
 .hero {
